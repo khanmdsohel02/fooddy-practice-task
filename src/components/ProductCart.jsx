@@ -5,7 +5,7 @@ const ProductCart = ({ product }) => {
   const { id, title, img, price, about } = product;
 
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-md shadow-red-400	text-red-200">
+    <div className="card card-compact w-96 bg-base-100 shadow-md shadow-red-400	text-red-500">
       <figure>
         <img src={img} alt="food" />
       </figure>

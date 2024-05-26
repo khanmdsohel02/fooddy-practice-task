@@ -15,7 +15,7 @@ const AllProducts = () => {
 
   return (
     <div className="my-20">
-      <h1 className="text-5xl font-bold text-center mb-20 text-red-500">
+      <h1 className="text-5xl font-bold text-center my-20 text-red-500">
         All Products Is Here
       </h1>
       <div className="flex flex-wrap justify-between gap-10 ">

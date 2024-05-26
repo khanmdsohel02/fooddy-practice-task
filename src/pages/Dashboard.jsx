@@ -9,7 +9,7 @@ const Dashboard = () => {
         <Outlet />
         <label
           htmlFor="my-drawer-2"
-          className="btn btn-primary drawer-button lg:hidden mt-10"
+          className="btn bg-red-300 hover:bg-red-500 text-black drawer-button lg:hidden my-10 px-10"
         >
           Open SideBar
         </label>
@@ -21,14 +21,21 @@ const Dashboard = () => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+        <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content flex flex-col justify-between">
           {/* Sidebar content here */}
-          <li>
-            <Link to="manageproducts">Manage Products</Link>
-          </li>
-          <li>
-            <Link to="addproduct">Add Product</Link>
-          </li>
+          <div>
+            <li className="hover:bg-red-500 hover:text-white text-yellow-200 text-lg rounded-lg">
+              <Link to="manageproducts">Manage Products</Link>
+            </li>
+            <li className="hover:bg-red-500 hover:text-white text-yellow-200 text-lg rounded-lg">
+              <Link to="addproduct">Add Product</Link>
+            </li>
+          </div>
+          <div>
+            <li className="bg-red-500 text-white text-xl rounded-md">
+              <Link to="/">Go To Home</Link>
+            </li>
+          </div>
         </ul>
       </div>
     </div>

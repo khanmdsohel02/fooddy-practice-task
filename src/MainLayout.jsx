@@ -6,12 +6,14 @@ import "react-toastify/dist/ReactToastify.css";
 
 function MainLayout() {
   return (
-    <div className="lg:w-[80%] md:w-[90%] sm:w-[96%] mx-auto flex flex-col">
+    <>
       <Navbar />
-      <Outlet />
-      <Footer />
-      <ToastContainer />
-    </div>
+      <div className="lg:w-[80%] md:w-[90%] sm:w-[96%] mx-auto flex flex-col">
+        <Outlet />
+        <Footer />
+        <ToastContainer />
+      </div>
+    </>
   );
 }
 
