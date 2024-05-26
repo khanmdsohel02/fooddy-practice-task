@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 const ProductCart = ({ product }) => {
-  const { title, img, price, about } = product;
+  const { id, title, img, price, about } = product;
 
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-md shadow-red-400	text-red-200">
@@ -15,7 +15,7 @@ const ProductCart = ({ product }) => {
         <p className="text-base	">{about}</p>
         <div className="card-actions justify-end mt-5">
           <Link
-            to={`/productdetails/${title}`}
+            to={`/productdetails/${id}`}
             className="btn bg-red-500 hover:bg-red-600 text-white"
           >
             See Details
