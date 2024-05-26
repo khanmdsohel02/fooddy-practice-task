@@ -30,10 +30,10 @@
     },
     {
       "id": "5",
-      "title": "bhg",
-      "about": "gfhb",
-      "price": "454",
-      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302114154-masala-dosa.jpg?q=w_1110,c_fill/f_webp"
+      "title": "Hummus",
+      "about": "This humble Middle Eastern spread, made with chickpeas, garlic, lemon juice and tahini has become a fridge staple all around the world. This tangy treat tastes good as a dip, with breads, with meats, with vegetables, beans or – hear us out – on a Marmite rice cake.",
+      "price": "45",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170209172755-hummus.jpg?q=w_1110,c_fill/f_webp"
     },
     {
       "id": "5",
@@ -55,6 +55,13 @@
       "about": "Nothing really prepares you for the stench of one of the strangest dishes on Earth. Like durian, smelly tofu is one of Southeast Asia’s most iconic foods. The odor of fermenting tofu is so overpowering many aren’t able to shake off the memory for months. So is the legendarily divine taste really worth the effort? Sure it is.",
       "price": "44",
       "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302143134-tofu.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "9",
+      "title": "French toast",
+      "about": "Unlike its more restrained Sunday brunch counterpart, Hong Kong-style French toast is like a deep-fried hug. Two pieces of toast are slathered with peanut butter or kaya jam, soaked in egg batter, fried in butter and served with still more butter and lots of syrup. A Hong Kong best food, best enjoyed before cholesterol checks.",
+      "price": "89",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302151812-french-toast-hong-kong.jpg?q=w_1110,c_fill/f_webp"
     }
   ]
 }

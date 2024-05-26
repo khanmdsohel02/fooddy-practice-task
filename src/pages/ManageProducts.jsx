@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Product from "../components/Product";
 import { useEffect } from "react";
+import { toast } from "react-toastify";
 
 const ManageProducts = () => {
   const [products, setProducts] = useState([]);
@@ -22,12 +23,16 @@ const ManageProducts = () => {
       });
       const newProducts = products.filter((product) => product.id !== id);
       setProducts(newProducts);
+      toast.success("Product Deleted");
     }
+    toast.success("Product Is Not Delete");
   };
 
   return (
     <div className="w-full">
-      <h1 className="text-5xl font-bold text-center mb-10 text-red-500">Manage Products</h1>
+      <h1 className="text-5xl font-bold text-center mb-10 text-red-500">
+        Manage Products
+      </h1>
       <div className="overflow-x-auto">
         <table className="table">
           {/* head */}

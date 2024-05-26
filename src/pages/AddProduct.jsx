@@ -29,6 +29,7 @@ const AddProduct = () => {
       // clear form
       form.reset();
     }
+    toast.success("Product Is Not Add");
   };
 
   return (

@@ -39,12 +39,13 @@ const UpdateProduct = () => {
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
-          toast.success("Product Added");
+          toast.success("Product Updated");
           form.reset();
         });
       navigate("/");
       // clear form
     }
+    toast.success("Product Is Not Update");
   };
 
   return (
