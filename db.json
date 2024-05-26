@@ -1,0 +1,60 @@
+{
+  "food": [
+    {
+      "id": "1",
+      "title": "Masala dosa",
+      "about": "A crispy, rice-batter crepe encases a spicy mix of mashed potato, which is then dipped in coconut chutney, pickles, tomato-and-lentil-based sauces and other condiments. It’s a fantastic breakfast food that’ll keep you going till lunch, when you’ll probably come back for another.",
+      "price": "11",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302114154-masala-dosa.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "2",
+      "title": "Potato chips",
+      "about": "It’s unclear when and where the potato chip was born. US legend has it that they were invented in New York in 1853, but the earliest known recipe for “Potatoes Fried in Slices or Shavings” appears in a bestselling 1817 cookbook by Englishman William Kitchiner.\n\nWhatever the case, they’re now one of the world’s most child-friendly and best foods. But think of them this way – if a single chip cost, say, $5, it’d be a far greater (and more popular) delicacy than caviar, a prize worth fighting wars over.",
+      "price": "5",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170203151518-crisps.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "3",
+      "title": "Seafood paella",
+      "about": "The sea is lapping just by your feet, a warm breeze whips the tablecloth around your legs and a steamy pan of paella sits in front of you. Shrimp, lobster, mussels and cuttlefish combine with white rice and various herbs, oil and salt in this Valencian dish to send you immediately into holiday mode. Though if you have it in Spain, you’re probably there already.",
+      "price": "77",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170206165040-dubai-michelin-dining-boca.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "4",
+      "title": "Som tam",
+      "about": "To prepare Thailand’s most famous salad, pound garlic and chilies with a mortar and pestle. Toss in tamarind juice, fish sauce, peanuts, dried shrimp, tomatoes, lime juice, sugar cane paste, string beans and a handful of grated green papaya. Grab a side of sticky rice. Variations include those made with crab (som tam boo) and fermented fish sauce (som tam plah lah), but none matches the flavor and simple beauty of the original.",
+      "price": "77",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302150230-som-tam.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "5",
+      "title": "bhg",
+      "about": "gfhb",
+      "price": "454",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302114154-masala-dosa.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "5",
+      "title": "Chicken rice",
+      "about": "Often called the “national dish” of Singapore, this steamed or boiled chicken is served atop fragrant oily rice, with sliced cucumber as the token vegetable. Variants include roasted chicken or soy sauce chicken. However it’s prepared, it’s one of Singapore’s best foods. The dipping sauces – premium dark soy sauce, chili with garlic and pounded ginger – give it that little extra oomph to ensure whenever you’re not actually in Singapore eating chicken rice, you’re thinking of it.",
+      "price": "66",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302150650-chicken-rice-singapore.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "7",
+      "title": "Poutine",
+      "about": "French fries smothered in cheese curds and brown gravy. Sounds kind of disgusting, looks even worse, but engulfs the mouth in a saucy, cheesy, fried-potato mix that’ll have you fighting over the last dollop. Our Canadian friends insist it’s best enjoyed at 3 a.m. after “several” beers.",
+      "price": "77",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/160516104039-ottawa-poutinefest-special-gourmet-poutine.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "7",
+      "title": "Stinky tofu",
+      "about": "Nothing really prepares you for the stench of one of the strangest dishes on Earth. Like durian, smelly tofu is one of Southeast Asia’s most iconic foods. The odor of fermenting tofu is so overpowering many aren’t able to shake off the memory for months. So is the legendarily divine taste really worth the effort? Sure it is.",
+      "price": "44",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302143134-tofu.jpg?q=w_1110,c_fill/f_webp"
+    }
+  ]
+}
