@@ -6,8 +6,8 @@ const ProductCart = ({ product }) => {
 
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-md shadow-red-400	text-red-500">
-      <figure>
-        <img src={img} alt="food" />
+      <figure className="h-[300px]">
+        <img className="w-[100%] h-[100%]" src={img} alt="food" />
       </figure>
       <div className="card-body">
         <h2 className="card-title text-3xl">{title}</h2>

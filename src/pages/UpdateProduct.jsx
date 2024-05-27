@@ -37,19 +37,23 @@ const UpdateProduct = () => {
         body: JSON.stringify(newProduct),
       })
         .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-          toast.success("Product Updated");
-          form.reset();
-        });
-      navigate("/");
+        .then((data) => {});
+      toast.success("Product Updated");
+      form.reset();
+      // navigate("/");
       // clear form
+    } else {
+      toast.warning("Product Is Not Update");
     }
-    toast.success("Product Is Not Update");
   };
 
   return (
     <>
+      <div className="m-10">
+        <Link className="bg-red-500 text-white text-xl rounded-md p-2" to="/">
+          Go To Home
+        </Link>
+      </div>
       <div className="w-[60%] mx-auto mt-20">
         <h1 className="text-5xl font-bold text-center mb-10 text-red-500 ">
           Update Product Info

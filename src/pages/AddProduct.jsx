@@ -28,8 +28,9 @@ const AddProduct = () => {
         });
       // clear form
       form.reset();
+    } else {
+      toast.warning("Product Is Not Add");
     }
-    toast.success("Product Is Not Add");
   };
 
   return (

@@ -30,13 +30,6 @@
     },
     {
       "id": "5",
-      "title": "Hummus",
-      "about": "This humble Middle Eastern spread, made with chickpeas, garlic, lemon juice and tahini has become a fridge staple all around the world. This tangy treat tastes good as a dip, with breads, with meats, with vegetables, beans or – hear us out – on a Marmite rice cake.",
-      "price": "45",
-      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170209172755-hummus.jpg?q=w_1110,c_fill/f_webp"
-    },
-    {
-      "id": "5",
       "title": "Chicken rice",
       "about": "Often called the “national dish” of Singapore, this steamed or boiled chicken is served atop fragrant oily rice, with sliced cucumber as the token vegetable. Variants include roasted chicken or soy sauce chicken. However it’s prepared, it’s one of Singapore’s best foods. The dipping sauces – premium dark soy sauce, chili with garlic and pounded ginger – give it that little extra oomph to ensure whenever you’re not actually in Singapore eating chicken rice, you’re thinking of it.",
       "price": "66",
@@ -46,7 +39,7 @@
       "id": "7",
       "title": "Poutine",
       "about": "French fries smothered in cheese curds and brown gravy. Sounds kind of disgusting, looks even worse, but engulfs the mouth in a saucy, cheesy, fried-potato mix that’ll have you fighting over the last dollop. Our Canadian friends insist it’s best enjoyed at 3 a.m. after “several” beers.",
-      "price": "77",
+      "price": "70",
       "img": "https://media.cnn.com/api/v1/images/stellar/prod/160516104039-ottawa-poutinefest-special-gourmet-poutine.jpg?q=w_1110,c_fill/f_webp"
     },
     {
@@ -62,6 +55,27 @@
       "about": "Unlike its more restrained Sunday brunch counterpart, Hong Kong-style French toast is like a deep-fried hug. Two pieces of toast are slathered with peanut butter or kaya jam, soaked in egg batter, fried in butter and served with still more butter and lots of syrup. A Hong Kong best food, best enjoyed before cholesterol checks.",
       "price": "89",
       "img": "https://media.cnn.com/api/v1/images/stellar/prod/170302151812-french-toast-hong-kong.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "12",
+      "title": "Chili crab",
+      "about": "You can’t visit Singapore without trying its spicy, sloppy, meaty specialty. While there are dozens of ways to prepare crab (with black pepper, salted egg yolk, cheese-baked, et cetera) chili crab remains the local bestseller. Spicy chili-tomato gravy tends to splatter, which is why you need to mop everything up with mini mantou buns.",
+      "price": "22",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170306145913-singapore-chili-crab.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "23",
+      "title": "Fish ‘n’ chips",
+      "about": "Anything that’s been around since the 1860s can’t be doing much wrong. The staple of the Victorian British working class is a crunchy-outside, soft-inside dish of simple, un-adorned fundamentals.",
+      "price": "44",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/170124150418-18-fish-and-chips.jpg?q=w_1110,c_fill/f_webp"
+    },
+    {
+      "id": "33",
+      "title": "Sweet Potato Chaat",
+      "about": "Sweet Potato Chaat is a sweet tangy chaat topped with pomegranates and freshly chopped coriander. This chaat can go well with any season but it's mostly enjoyed in almost every season. If you love sweet potatoes, then this chaat can be a great counterpart for your normal aloo chaat. Sweet Potato Chaat like other street food chaats is filled with spices and chutney. So, all the street food lovers, this is your time to relish this delicious chaat at the comfort pf your home. Do try making this chaat and let's know if you enjoyed it.",
+      "price": "66",
+      "img": "https://plus.unsplash.com/premium_photo-1669559809077-52f963b1ea7f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
 }

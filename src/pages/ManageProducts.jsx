@@ -24,8 +24,9 @@ const ManageProducts = () => {
       const newProducts = products.filter((product) => product.id !== id);
       setProducts(newProducts);
       toast.success("Product Deleted");
+    } else {
+      toast.warning("Product Is Not Delete");
     }
-    toast.success("Product Is Not Delete");
   };
 
   return (
@@ -42,7 +43,7 @@ const ManageProducts = () => {
               <th>Title</th>
               <th>Price</th>
               <th>About</th>
-              <th>Image URL</th>
+              <th>Image</th>
               <th>Action</th>
             </tr>
           </thead>

@@ -12,6 +12,8 @@ import AddProduct from "./pages/AddProduct";
 import UpdateProduct from "./pages/UpdateProduct";
 import AllProducts from "./pages/AllProducts";
 import ProductDetails from "./pages/ProductDetails";
+import DashboardHome from "./components/DashboardHome";
+import RegisterLogin from "./pages/RegisterLogin";
 
 const router = createBrowserRouter([
   {
@@ -45,8 +47,8 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     children: [
       {
-        index: "true",
-        element: <AllProducts />,
+        index: true,
+        element: <DashboardHome />,
       },
       {
         path: "manageproducts",
@@ -61,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/updateproduct/:id",
     element: <UpdateProduct />,
+  },
+  {
+    path: "/loginorregister",
+    element: <RegisterLogin />,
   },
 
   {
