@@ -1,5 +1,7 @@
-import Login from "../components/Login";
-import Register from "../components/Register";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Login from "../components/authentication/Login";
+import Register from "../components/authentication/Register";
 
 const RegisterLogin = () => {
   return (
@@ -9,6 +11,7 @@ const RegisterLogin = () => {
         &#8592; &#8594;
       </div>
       <Login />
+      <ToastContainer />
     </div>
   );
 };
