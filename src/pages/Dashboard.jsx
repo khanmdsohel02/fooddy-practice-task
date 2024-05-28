@@ -1,8 +1,23 @@
-import { Link, Outlet } from "react-router-dom";
+import { signOut } from "firebase/auth";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { auth } from "../firebase/firebaseConfig";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
+  function logout(e) {
+    e.preventDefault();
+    signOut(auth)
+      .then(() => {
+        navigate("/loginorregister");
+      })
+      .catch((error) => {
+        console.error("Error signing out:", error);
+      });
+  }
+
   return (
     <div className="drawer lg:drawer-open">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
@@ -34,9 +49,12 @@ const Dashboard = () => {
               <Link to="addproduct">Add Product</Link>
             </li>
           </div>
-          <div>
-            <li className="bg-red-500 text-white text-xl rounded-md">
+          <div className="flex justify-between">
+            <li className="bg-red-500 text-white text-xl rounded-md hover:bg-red-600">
               <Link to="/">Go To Home</Link>
+            </li>
+            <li className="bg-red-500 text-white text-xl rounded-md hover:bg-red-600">
+              <button onClick={logout}>LogOut</button>
             </li>
           </div>
         </ul>

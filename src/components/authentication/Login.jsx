@@ -53,7 +53,9 @@ const Login = () => {
   return (
     <div className="hero min-h-screen">
       <div className="card shrink-0 w-full max-w-lg shadow-lg shadow-red-400">
-        <h3 className="text-5xl font-bold text-center py-10">LogIn Here!</h3>
+        <h3 className="text-5xl font-bold text-center py-10 text-red-400">
+          LogIn Here!
+        </h3>
         <form onSubmit={handleEmailAndPasswordLogin} className="card-body">
           <div className="form-control">
             <label className="label">

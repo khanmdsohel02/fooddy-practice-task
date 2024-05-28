@@ -18,7 +18,7 @@ const AllProducts = () => {
       <h1 className="text-5xl font-bold text-center my-20 text-red-500">
         All Products Is Here
       </h1>
-      <div className="flex flex-wrap justify-between gap-10 ">
+      <div className="flex flex-wrap justify-evenly gap-10">
         {products.toReversed().map((product, index) => (
           <ProductCart key={index} product={product} />
         ))}

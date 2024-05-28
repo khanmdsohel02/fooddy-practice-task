@@ -14,7 +14,7 @@ const HomeProducts = () => {
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-between gap-10">
+    <div className="flex flex-wrap justify-evenly gap-10">
       {products
         .toReversed()
         .slice(0, 3)

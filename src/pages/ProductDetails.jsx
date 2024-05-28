@@ -18,9 +18,9 @@ const ProductDetails = () => {
   const { title, about, price, img } = product;
 
   return (
-    <div className="hero min-h-screen bg-base-200 mt-10 border-b border-red-600">
+    <div className="hero min-h-screen bg-base-200 mt-10 pt-10 border-b border-red-600">
       <div className="hero-content w-full flex-col lg:flex-row-reverse">
-        <img src={img} className="max-w-2xl rounded-xl shadow-2xl" />
+        <img src={img} className="lg:max-w-2xl rounded-xl shadow-2xl" />
         <div>
           <h1 className="text-7xl font-bold text-red-500 mb-4">{title}</h1>
           <h1 className="text-3xl font-bold text-red-400">Price : {price}$</h1>

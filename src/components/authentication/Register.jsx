@@ -47,6 +47,8 @@ const Register = () => {
         console.log(errorMessage);
         if (errorMessage.includes("weak-password")) {
           toast.error("Password should be at least 6 characters");
+        } else if (errorMessage.includes("email-already-in-use")) {
+          toast.error("Email already Exists");
         }
       });
   }
@@ -70,7 +72,7 @@ const Register = () => {
   return (
     <div className="hero min-h-screen">
       <div className="card shrink-0 w-full max-w-lg shadow-lg shadow-red-400">
-        <h3 className="text-5xl font-bold text-center py-10">
+        <h3 className="text-5xl font-bold text-center py-10 text-red-400">
           Create an Account!
         </h3>
         <form onSubmit={handleEmailAndPasswordSignUp} className="card-body">
@@ -122,6 +124,7 @@ const Register = () => {
               type="text"
               placeholder="Your Photo URL"
               className="input input-bordered"
+              required
             />
           </div>
           <div className="form-control mt-6">
