@@ -1,3 +1,3 @@
 # React + Vite
 
-- [Website](https://fooddy-task.netlify.app/)
+- [Website URL](https://fooddy-task.netlify.app/)
