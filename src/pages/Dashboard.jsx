@@ -1,7 +1,5 @@
 import { signOut } from "firebase/auth";
 import { Link, Outlet, useNavigate } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { auth } from "../firebase/firebaseConfig";
 
 const Dashboard = () => {
@@ -24,7 +22,6 @@ const Dashboard = () => {
       <div className="drawer-content flex flex-col items-center justify-center w-[90%] mx-auto">
         {/* Page content here */}
         <Outlet />
-        <ToastContainer />
         <label
           htmlFor="my-drawer-2"
           className="btn bg-red-300 hover:bg-red-500 text-black drawer-button lg:hidden my-10 px-10"

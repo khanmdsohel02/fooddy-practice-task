@@ -1,14 +1,13 @@
-/* eslint-disable no-undef */
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
-  authDomain: process.env.AUTH_DOMAIN,
-  projectId: process.env.PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID,
+  apiKey: "AIzaSyCk2-nJi30O-MuFqipABRmb0euHE4G6viY",
+  authDomain: "fooddy-9df21.firebaseapp.com",
+  projectId: "fooddy-9df21",
+  storageBucket: "fooddy-9df21.appspot.com",
+  messagingSenderId: "211262107667",
+  appId: "1:211262107667:web:7a7e1b5d25274aad8e0fe6",
 };
 
 // Initialize Firebase

@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const UpdateProduct = () => {
-  const navigate = useNavigate();
   const updateId = useParams();
   const [product, setProduct] = useState([]);
 
@@ -40,8 +39,6 @@ const UpdateProduct = () => {
         .then((data) => {});
       toast.success("Product Updated");
       form.reset();
-      // navigate("/");
-      // clear form
     } else {
       toast.warning("Product Is Not Update");
     }
